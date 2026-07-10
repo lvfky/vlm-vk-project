@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Данные, модели, чекпоинты — не коммитим (качаются с HF / хранятся в Google Drive)
+data/
+checkpoints/
+*.safetensors
+*.bin
+*.pt
+*.ckpt
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Оставляем каталог results/, но игнорим тяжёлые артефакты по желанию
+results/*.zip
