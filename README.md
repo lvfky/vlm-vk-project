@@ -46,7 +46,7 @@
 - [x] Шаг 1. Структура репозитория и окружение.
 - [x] Шаг 2. Разведка датасетов (ноутбук `01`): structure / примеры / размеры — итоги в [results/data_exploration_notes.md](results/data_exploration_notes.md).
 - [x] Шаг 3. Загрузка базовой модели и проверка инференса (ноутбук `02`) — итоги в [results/model_inference_notes.md](results/model_inference_notes.md). Модель в fp16 занимает ~5.6 ГБ, свободно ~9 ГБ под дообучение.
-- [ ] Шаг 4. Zero-shot оценка на GQA-ru / MMBench-ru.
+- [x] Шаг 4. Zero-shot оценка на GQA-ru / MMBench-ru (ноутбук `03`) — базлайн: GQA **0.466**, MMBench **0.642** (n=1000, seed=42). Детали в [results/baseline_metrics.md](results/baseline_metrics.md).
 - [ ] Шаг 5–7. LoRA-дообучение на подвыборке + чекпоинты в Drive.
 - [ ] Шаг 8. Оценка после дообучения, сравнение до/после.
 - [ ] Шаг 9. Финальный отчёт с метриками и выводами.
