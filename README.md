@@ -74,7 +74,6 @@
 │   ├── baseline_metrics.md
 │   ├── training_notes.md
 │   └── metrics.csv
-├── vlm_project_task.md                       # исходное описание задания
 └── README.md
 ```
 
