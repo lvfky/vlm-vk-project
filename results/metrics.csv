@@ -1,3 +1,3 @@
 benchmark,n,metric,baseline,after_lora
-GQA-ru,1000,accuracy,0.466,
-MMBench-ru,1000,accuracy,0.642,
+GQA-ru,1000,accuracy,0.466,0.465
+MMBench-ru,1000,accuracy,0.642,0.640
